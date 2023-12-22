@@ -1,0 +1,18 @@
+Aqui está um exemplo de código em Python que simula um semáforo de trânsito:
+
+python
+import time
+
+def semaforo():
+    print("Verde")
+    time.sleep(5)  # Tempo para o sinal verde
+    print("Amarelo")
+    time.sleep(2)  # Tempo para o sinal amarelo
+    print("Vermelho")
+    time.sleep(5)  # Tempo para o sinal vermelho
+
+while True:
+    semaforo()
+
+
+Este código irá imprimir a cor do semáforo e aguardar o tempo correspondente para cada cor (5 segundos para verde, 2 segundos para amarelo e 5 segundos para vermelho). O loop while True faz com que o semáforo fique em funcionamento contínuo.
